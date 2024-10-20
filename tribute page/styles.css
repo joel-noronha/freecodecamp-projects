@@ -1,0 +1,121 @@
+
+
+body{
+    font-family: Trajan, "times new roman";
+    color: white;
+    background-color: rgba(50, 50, 160, 0.7);
+    background-image:linear-gradient( 115deg, rgba(30, 40, 60, 0.6), rgba(75.3, 75.3, 75.3, 0.4) ),  url("https://www.wallpaperflare.com/static/684/694/555/woodkid-monochrome-white-black-wallpaper.jpg");
+  }
+  
+  nav{
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 5, 0.7);
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0; 
+  }
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    align-items: center;
+  }
+  nav > ul > li {
+    margin: 0 0.2rem;
+      padding: 0.2rem;
+      display: block;
+  }
+  li > a{
+    text-decoration: none;
+    color: rgba(255, 215, 0, 0.7);
+  }
+  
+  .title {
+    display: block;
+    text-align: center; 
+    padding-top: 35px;
+    position: flex;
+  }
+  
+  #image{
+    display: block;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  
+  #img-caption{
+    display: block;
+    text-align: center; 
+    margin-top: 15px; 
+    margin-bottom: 5px;
+    height: auto;
+    position: flex;
+  }
+  
+  #tribute-info h2{
+    display: block;
+    position: flex;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #tribute-info li {
+    padding: 25px;
+    display: block; 
+    margin: 0 auto;
+    text-align: justify;
+    justify-content: center;
+  }
+  
+  .photo-gallery{
+   width: 90%;
+   height: 300px;
+   position: relative;
+   left: 40px;
+   right: -70px;
+   padding-top: 50px;
+   bottom: 10px;
+   border-radius: 10px;
+   background-image: url('https://i.pinimg.com/originals/d0/6c/56/d06c56d0611ee9de0af136973c9705b1.jpg');
+   background-size: 100% 100%;
+   
+  }
+  
+  
+  #discover-more h2{
+    font-size: 16px;
+    padding-top: 35px;
+    margin-bottom: -20px;
+    text-align: center;
+  }
+  #tribute-link {
+    text-decoration: none;
+    color: rgba(255, 215, 0, 0.7);
+  }
+  
+  footer{
+    justify-content: space-evenly;
+  }
+  #logo-container {
+    background-color: rgba(211, 211, 211, 0.2);
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    margin: -15px;
+  }
+  .logo{
+    width: 50%;
+    max-width: 50px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
